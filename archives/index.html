@@ -5,97 +5,170 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>W 野卡</title>
   <link rel="stylesheet" href="/css/style.css">
-  
 <meta name="generator" content="Hexo 7.3.0"></head>
 <body>
+  <!-- 导航栏 - 保持白色背景 -->
   <header class="header">
     <div class="container">
-      <div class="logo-container">
+      <div class="header-inner">
         <a href="/" class="logo">
-          
-            <img src="/images/W_logo.png" alt="W 野卡">
-          
+          <img src="/images/W-logo.jpg" alt="W 野卡" class="logo-img">
         </a>
+        <nav class="nav">
+          
+            <a href="/" class="nav-item">首页</a>
+          
+            <a href="/tags" class="nav-item">标签</a>
+          
+        </nav>
       </div>
-      <nav class="main-nav">
-        
-          <a href="/" class="nav-item">首页</a>
-        
-          <a href="/tags" class="nav-item">标签</a>
-        
-      </nav>
     </div>
   </header>
 
-  <main class="main-content">
+  <!-- 英雄区域 - 保持白色背景 -->
+  <section class="hero">
     <div class="container">
-      <div class="archive-container">
-  <h1 class="archive-title">归档</h1>
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-title">
+            <img src="/images/W-logo.jpg" alt="W Logo" class="hero-logo">
+            <h1 class="hero-heading">野卡</h1>
+          </div>
+          <p class="hero-subtitle">一分钟注册，轻松订阅海外线上服务</p>
+          <div class="hero-buttons">
+            
+              <a href="https://example.com/official" class="btn btn-primary">前往官网</a>
+            
+              <a href="/faq" class="btn btn-secondary">常见问题</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 博客区域 - 淡蓝色背景 -->
+  <main class="main">
+    <div class="container">
+      <!-- 博客文章列表 -->
+<div class="posts-grid">
   
-  
-  
-    
-    
-      
-      <div class="archive-year">
-        <h2 class="year-title">2025</h2>
-      
-    
-    
-    <div class="archive-post">
-      <span class="archive-post-date">04-29</span>
-      <a href="/2025/04/29/%E5%8D%9A%E5%AE%A2md%E6%96%87%E6%A1%A3%E6%A0%BC%E5%BC%8F/" class="archive-post-title">博客md文档格式</a>
+    <div class="post-card">
+      <h2 class="post-title">
+        <a href="/2025/04/29/%E5%8D%9A%E5%AE%A2md%E6%96%87%E6%A1%A3%E6%A0%BC%E5%BC%8F/">博客md文档格式</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date">2025-04-29</span>
+        
+          
+            <a href="/tags/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/" class="post-tag">#使用说明</a>
+          
+        
+      </div>
+      <div class="post-excerpt">
+        
+          Hexo 中使用的 md（Markdown）文档，需符合 Markdown 基本语法规范，并通过 Front - matter（文件头）设置文章元数据 。具体如下：
+1. Front - matter（文件头）位于文档开头，用---包裹，用于设置文章标题、日期、标签、分类等元数据 ，各字段间换...
+        
+      </div>
     </div>
   
-    
-    
-    
-    <div class="archive-post">
-      <span class="archive-post-date">04-27</span>
-      <a href="/2025/04/27/hello-world/" class="archive-post-title">Hello World</a>
+    <div class="post-card">
+      <h2 class="post-title">
+        <a href="/2025/04/27/hello-world/">Hello World</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date">2025-04-27</span>
+        
+      </div>
+      <div class="post-excerpt">
+        
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer ...
+        
+      </div>
     </div>
   
-    
-    
-    
-    <div class="archive-post">
-      <span class="archive-post-date">04-27</span>
-      <a href="/2025/04/27/%E6%8E%A2%E7%B4%A2%E7%A7%91%E6%8A%80%E4%B8%96%E7%95%8C%E7%9A%84%E5%A5%87%E5%A6%99%E4%B9%8B%E6%97%85%20-%20%E5%89%AF%E6%9C%AC/" class="archive-post-title">探索科技世界的奇妙之旅1111111111</a>
+    <div class="post-card">
+      <h2 class="post-title">
+        <a href="/2025/04/27/2025-04-27-Hexo-%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E9%87%8D%E7%82%B9%E6%8C%87%E5%8D%97/">Hexo 主题修改重点指南</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date">2025-04-27</span>
+        
+          
+            <a href="/tags/hexo/" class="post-tag">#hexo</a>
+          
+            <a href="/tags/Node-js/" class="post-tag">#Node.js</a>
+          
+        
+      </div>
+      <div class="post-excerpt">
+        
+          Hexo 主题修改重点指南对于不熟悉前端代码的用户，以下是修改页面内容的重点指南：
+1. 主题配置文件 (_config.yml)这是最重要的文件，你可以在这里修改大部分内容而不需要碰代码：
+123456789101112131415161718192021222324# 网站标题和描述tit...
+        
+      </div>
     </div>
   
-    
-    
-    
-    <div class="archive-post">
-      <span class="archive-post-date">04-27</span>
-      <a href="/2025/04/27/2025-04-27-Hexo-%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E9%87%8D%E7%82%B9%E6%8C%87%E5%8D%97/" class="archive-post-title">Hexo 主题修改重点指南</a>
+    <div class="post-card">
+      <h2 class="post-title">
+        <a href="/2025/04/27/%E6%8E%A2%E7%B4%A2%E7%A7%91%E6%8A%80%E4%B8%96%E7%95%8C%E7%9A%84%E5%A5%87%E5%A6%99%E4%B9%8B%E6%97%85/">探索科技世界的奇妙之旅1111111111</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date">2025-04-27</span>
+        
+          
+            <a href="/tags/%E7%A7%91%E6%8A%80/" class="post-tag">#科技</a>
+          
+            <a href="/tags/%E5%88%9B%E6%96%B0/" class="post-tag">#创新</a>
+          
+            <a href="/tags/%E6%9C%AA%E6%9D%A5%E8%B6%8B%E5%8A%BF/" class="post-tag">#未来趋势</a>
+          
+        
+      </div>
+      <div class="post-excerpt">
+        
+          探索科技世界的奇妙之旅1111111在当今这个快速发展的时代，科技正以前所未有的速度改变着我们的生活。从智能手机到人工智能，从虚拟现实到量子计算，每一项新技术的出现都让我们对未来充满了无限的遐想。
+智能手机：口袋里的超级计算机智能手机已经成为了我们生活中不可或缺的一部分。它不仅仅是一个通讯工具...
+        
+      </div>
     </div>
   
-    
-    
-    
-    <div class="archive-post">
-      <span class="archive-post-date">04-27</span>
-      <a href="/2025/04/27/%E6%8E%A2%E7%B4%A2%E7%A7%91%E6%8A%80%E4%B8%96%E7%95%8C%E7%9A%84%E5%A5%87%E5%A6%99%E4%B9%8B%E6%97%85/" class="archive-post-title">探索科技世界的奇妙之旅1111111111</a>
+    <div class="post-card">
+      <h2 class="post-title">
+        <a href="/2025/04/27/%E6%8E%A2%E7%B4%A2%E7%A7%91%E6%8A%80%E4%B8%96%E7%95%8C%E7%9A%84%E5%A5%87%E5%A6%99%E4%B9%8B%E6%97%85%20-%20%E5%89%AF%E6%9C%AC/">探索科技世界的奇妙之旅1111111111</a>
+      </h2>
+      <div class="post-meta">
+        <span class="post-date">2025-04-27</span>
+        
+          
+            <a href="/tags/%E7%A7%91%E6%8A%80/" class="post-tag">#科技</a>
+          
+            <a href="/tags/%E5%88%9B%E6%96%B0/" class="post-tag">#创新</a>
+          
+            <a href="/tags/%E6%9C%AA%E6%9D%A5%E8%B6%8B%E5%8A%BF/" class="post-tag">#未来趋势</a>
+          
+        
+      </div>
+      <div class="post-excerpt">
+        
+          探索科技世界的奇妙之旅1111111在当今这个快速发展的时代，科技正以前所未有的速度改变着我们的生活。从智能手机到人工智能，从虚拟现实到量子计算，每一项新技术的出现都让我们对未来充满了无限的遐想。
+智能手机：口袋里的超级计算机智能手机已经成为了我们生活中不可或缺的一部分。它不仅仅是一个通讯工具...
+        
+      </div>
     </div>
-  
-  
-  
-    </div>
-  
-  
   
 </div>
+
+
 
     </div>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <div class="copyright">
-        &copy; 2025 John Doe
-      </div>
-      
+      <div class="footer-inner">
         <div class="footer-links">
           
             <a href="/about" class="footer-link">关于我们</a>
@@ -107,14 +180,13 @@
             <a href="/terms" class="footer-link">服务条款</a>
           
         </div>
-      
+        <div class="footer-copyright">
+          &copy; 2025 W 野卡. All Rights Reserved.
+        </div>
+      </div>
     </div>
   </footer>
 
-  
-    
-      <script src="/js/main.js"></script>
-    
-  
+  <script src="/js/script.js"></script>
 </body>
 </html>
