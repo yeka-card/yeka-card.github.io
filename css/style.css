@@ -34,6 +34,11 @@ a:hover {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   padding: 15px 0;
 }
+/* .site-nav a {
+  font-size: 18px;
+  font-weight: 500;
+}
+ */
 
 .header-inner {
   display: flex;
@@ -47,6 +52,8 @@ a:hover {
 }
 
 .logo-img {
+  font-size: 18px;
+  font-weight: 500;
   height: 30px;
   width: auto;
 }
@@ -57,7 +64,7 @@ a:hover {
 }
 
 .nav-item {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -132,7 +139,7 @@ a:hover {
 /* 主要内容区域 - 淡蓝色背景 */
 .main {
   padding: 40px 0;
-  background-color: #e8f0fe; /* 淡蓝色背景 */
+  background-color: #f0f8ff; /* 淡蓝色背景 */
 }
 
 /* 文章卡片网格 */
@@ -143,13 +150,25 @@ a:hover {
   margin-bottom: 40px;
 }
 
+/* .post-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+} */
 .post-card {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   padding: 25px;
   transition: transform 0.3s, box-shadow 0.3s;
+  /* 其他样式保持不变 */
+  height: 100%; /* 确保卡片占满整个链接区域 */
+  display: flex;
+  flex-direction: column; /* 使用弹性布局使内容垂直排列 */
 }
+
 
 .post-card:hover {
   transform: translateY(-5px);
@@ -184,6 +203,12 @@ a:hover {
   color: #666;
   margin-top: 10px;
   line-height: 1.6;
+  flex-grow: 1; /* 让摘要部分自动填充剩余空间 */
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* 限制摘要显示行数 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis
 }
 
 /* 分页 */
@@ -288,4 +313,171 @@ a:hover {
     margin-right: 0;
     margin-bottom: 10px;
   }
+}
+/* 标签页样式 - 新增 */
+.tags-page {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.tags-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tags-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.tags-subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+.tags-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tag-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.tag-item:hover {
+  background-color: #5d9cec;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(93, 156, 236, 0.3);
+}
+
+.tag-name {
+  margin-right: 6px;
+}
+
+.tag-count {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 2px 8px;
+  font-size: 12px;
+  min-width: 24px;
+  text-align: center;
+}
+
+.tag-item:hover .tag-count {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* 标签大小根据文章数量变化 */
+.tag-item[data-count="1"] {
+  font-size: 12px;
+}
+
+.tag-item[data-count="2"] {
+  font-size: 14px;
+}
+
+.tag-item[data-count="3"] {
+  font-size: 16px;
+}
+
+.tag-item[data-count="4"] {
+  font-size: 18px;
+}
+
+.tag-item[data-count="5"],
+.tag-item[data-count="6"],
+.tag-item[data-count="7"],
+.tag-item[data-count="8"],
+.tag-item[data-count="9"] {
+  font-size: 20px;
+}
+
+.tag-item[data-count="10"],
+.tag-item[data-count="11"],
+.tag-item[data-count="12"],
+.tag-item[data-count="13"],
+.tag-item[data-count="14"],
+.tag-item[data-count="15"] {
+  font-size: 22px;
+}
+
+/* 特定标签页面 */
+.tag-posts {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+}
+
+.tag-posts-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.tag-icon {
+  color: #5d9cec;
+  margin-right: 8px;
+  font-size: 28px;
+}
+
+.tag-posts-count {
+  font-size: 16px;
+  color: #888;
+  margin-left: 8px;
+}
+
+/* 标签动画效果 */
+@keyframes tagPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.tag-item:hover {
+  animation: tagPulse 1s infinite;
+}
+
+/* 标签颜色变化 */
+.tag-item:nth-child(5n + 1):hover {
+  background-color: #5d9cec; /* 蓝色 */
+}
+
+.tag-item:nth-child(5n + 2):hover {
+  background-color: #48cfad; /* 绿色 */
+}
+
+.tag-item:nth-child(5n + 3):hover {
+  background-color: #ffce54; /* 黄色 */
+}
+
+.tag-item:nth-child(5n + 4):hover {
+  background-color: #fc6e51; /* 橙色 */
+}
+
+.tag-item:nth-child(5n + 5):hover {
+  background-color: #ed5565; /* 红色 */
 }
