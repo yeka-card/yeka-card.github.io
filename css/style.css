@@ -64,7 +64,7 @@ a:hover {
 }
 
 .nav-item {
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 500;
 }
 
@@ -119,21 +119,23 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #5d9cec;
+  background-color: #6f9ace;
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #4a89dc;
+  background-color: #5193e9;
+  color: white;
 }
 
 .btn-secondary {
-  background-color: #333;
+  background-color: #464646;
   color: white;
 }
 
 .btn-secondary:hover {
-  background-color: #444;
+  background-color: #3d3d3d;
+  color: white;
 }
 
 /* 主要内容区域 - 淡蓝色背景 */
