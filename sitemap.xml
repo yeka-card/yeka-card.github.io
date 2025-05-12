@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2025/05/09/Windsurf%E8%B6%85%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97%EF%BC%9A%E4%BB%8E%E9%87%8E%E5%8D%A1%E8%AE%A2%E9%98%85%E5%88%B0Cascade%E9%AB%98%E7%BA%A7%E7%8E%A9%E6%B3%95%EF%BC%8C%E4%B8%80%E7%AF%87%E6%90%9E%E5%AE%9A%EF%BC%81/</loc>
+    <loc>http://example.com/2025/05/09/OpenRouter%E5%85%A8%E9%9D%A2%E6%8C%87%E5%8D%97%EF%BC%9AOpenAI%E3%80%81Claude%E3%80%81Gemini%E7%AD%89%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%9A%8F%E6%84%8F%E7%94%A8%EF%BC%8C%E5%90%AB%E5%9B%BD%E5%86%85%E8%B4%AD%E4%B9%B0%E5%8F%8A%E5%85%8D%E8%B4%B9%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</loc>
     
     <lastmod>2025-05-09</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2025/05/09/OpenRouter%E5%85%A8%E9%9D%A2%E6%8C%87%E5%8D%97%EF%BC%9AOpenAI%E3%80%81Claude%E3%80%81Gemini%E7%AD%89%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%9A%8F%E6%84%8F%E7%94%A8%EF%BC%8C%E5%90%AB%E5%9B%BD%E5%86%85%E8%B4%AD%E4%B9%B0%E5%8F%8A%E5%85%8D%E8%B4%B9%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://example.com/2025/05/09/Windsurf%E8%B6%85%E8%AF%A6%E7%BB%86%E6%8C%87%E5%8D%97%EF%BC%9A%E4%BB%8E%E9%87%8E%E5%8D%A1%E8%AE%A2%E9%98%85%E5%88%B0Cascade%E9%AB%98%E7%BA%A7%E7%8E%A9%E6%B3%95%EF%BC%8C%E4%B8%80%E7%AF%87%E6%90%9E%E5%AE%9A%EF%BC%81/</loc>
     
     <lastmod>2025-05-09</lastmod>
     
@@ -100,6 +100,83 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/openrouter/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/openrouter%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/chatgpt/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/claude/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/OpenAI-API/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/ai/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/windsurf/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/windsurf%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/windsurf%E5%AE%98%E7%BD%91/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/ai%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/ai%E4%BB%A3%E7%A0%81%E7%BC%96%E8%BE%91%E5%99%A8/</loc>
+    <lastmod>2025-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/cursor/</loc>
     <lastmod>2025-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -164,83 +241,6 @@
   
   <url>
     <loc>http://example.com/tags/%E9%87%8E%E5%8D%A1%E9%82%80%E8%AF%B7%E7%A0%81/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/windsurf/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/windsurf%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/windsurf%E5%AE%98%E7%BD%91/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/ai%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/ai%E4%BB%A3%E7%A0%81%E7%BC%96%E8%BE%91%E5%99%A8/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/openrouter/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/openrouter%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/chatgpt/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/claude/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/OpenAI-API/</loc>
-    <lastmod>2025-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/ai/</loc>
     <lastmod>2025-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
